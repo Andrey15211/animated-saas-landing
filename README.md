@@ -1,66 +1,85 @@
 # FlowPilot AI
 
-## Links
+![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js)
+![GSAP](https://img.shields.io/badge/animation-GSAP-88ce02?logo=greensock)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)
+![Localization](https://img.shields.io/badge/localization-RU%20%2F%20EN-7c3aed)
 
-- GitHub: https://github.com/Andrey15211/animated-saas-landing
-- Live Demo: https://animated-saas-landing-tau.vercel.app
+FlowPilot AI is a fictional revenue-automation SaaS landing page built as a portfolio case study. It demonstrates conversion-focused layout, controlled GSAP motion, interactive pricing, accessible content, and validated lead capture without claiming a real SaaS backend.
 
-FlowPilot AI is a standalone portfolio case study for a fictional revenue-automation SaaS. It presents a conversion-focused landing page with a code-built product dashboard, controlled motion, interactive pricing, accessible FAQ content, a validated lead form, and complete Russian/English localization.
+## Live Demo
 
-## Stack
+https://animated-saas-landing-tau.vercel.app
 
-- Next.js App Router and TypeScript
-- Tailwind CSS plus a custom responsive design system
-- GSAP, ScrollTrigger, `@gsap/react`, and `useGSAP`
+## Source Code
+
+https://github.com/Andrey15211/animated-saas-landing
+
+## Features
+
+- Responsive product landing page with a code-built dashboard visual
+- GSAP hero, feature, status-card, and scroll timeline animations
+- Interactive pricing tiers and lead-volume calculator
+- Accessible FAQ accordion
+- React Hook Form and Zod lead-form validation
+- Reduced-motion behavior for continuous and scroll-driven animation
+
+## Tech Stack
+
+- Next.js 16 App Router
+- React 19
+- TypeScript
+- Tailwind CSS
+- GSAP and ScrollTrigger
 - React Hook Form and Zod
 - next-intl
 - Vitest
 
-## GSAP Usage
+## Localization
 
-GSAP powers the hero entrance, floating dashboard status cards, staggered feature reveals, and the scroll-driven workflow timeline. Every animation is scoped through `useGSAP`, which uses GSAP context cleanup when components unmount. Continuous and scroll-driven motion is skipped when `prefers-reduced-motion` is enabled.
+- RU/EN support: complete interface and validation localization
+- Default language: Russian (`/ru`)
+- Language switcher: available in the header
+- English route: `/en`
 
-## Features
+## Screenshots
 
-- Responsive dark premium SaaS landing page
-- Interactive HTML/CSS product command center
-- Problem-to-solution workflow comparison
-- Six animated feature cards
-- Sticky four-step workflow timeline
-- Three pricing tiers and lead-volume calculator
-- Accessible FAQ accordion
-- Zod-validated contact form with success state
-- Russian and English locale routes with a UI language switcher
+### Desktop
 
-## RU / EN Localization
+![FlowPilot desktop view](docs/screenshots/desktop.png)
 
-Russian is the default locale. Visiting `/` redirects to `/ru`; English is available at `/en`. The header switcher preserves the current localized page, while all navigation, cards, dashboard labels, statuses, calculator copy, FAQ content, form fields, loading states, success states, metadata, and validation errors come from `messages/ru.json` and `messages/en.json`.
+### Mobile
 
-## Local Setup
+Planned path: `docs/screenshots/mobile.png`
+
+### RU/EN example
+
+![FlowPilot English localization](docs/screenshots/localization.png)
+
+Mobile screenshot will be added after final device-width capture.
+
+## Local Development
 
 ```bash
 npm install
 npm run dev
-```
-
-Open [http://localhost:3000/ru](http://localhost:3000/ru). The root route redirects to Russian automatically.
-
-Run project checks with:
-
-```bash
-npm test
-npm run lint
 npm run build
 ```
 
-## Vercel Deployment
+Open `http://localhost:3000/ru`.
 
-Import the repository into Vercel and keep the detected Next.js settings. No environment variables are required for this frontend case study. The contact form currently demonstrates client-side validation and a simulated success response; connect its submit handler to a server action or external CRM endpoint for production lead delivery.
+## Deployment
 
-## Environment Variables
+Deployed on Vercel with the standard Next.js preset. No environment variables are required; the form currently simulates a successful client-side submission.
 
-No environment variables are currently used. `.env.example` documents this explicitly and contains no secrets.
+## What this project demonstrates
 
-## Skills Demonstrated
+- Animation and creative frontend engineering
+- Commercial SaaS landing-page structure
+- Accessible motion and reduced-motion handling
+- Localized form validation
+- Responsive product storytelling
 
-This case demonstrates responsive art direction, advanced CSS composition, component architecture, accessible interactive controls, GSAP sequencing and scroll animation, reduced-motion support, localized App Router architecture, localized schema validation, deterministic business logic testing, and production-oriented Next.js delivery.
+## Recommended GitHub Topics
+
+`saas-landing-page` `nextjs` `react` `typescript` `gsap` `scrolltrigger` `tailwindcss` `next-intl` `frontend-animation` `vercel`
