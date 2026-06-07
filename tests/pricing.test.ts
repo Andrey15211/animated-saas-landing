@@ -15,4 +15,9 @@ describe("estimateMonthlyCost", () => {
     expect(estimateMonthlyCost(-20)).toBe(49);
     expect(estimateMonthlyCost(200000)).toBe(649);
   });
+
+  it("uses explicit ruble pricing for the Russian locale", () => {
+    expect(estimateMonthlyCost(500, "RUB")).toBe(4_900);
+    expect(estimateMonthlyCost(25_000, "RUB")).toBe(22_900);
+  });
 });

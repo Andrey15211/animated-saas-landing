@@ -1,5 +1,10 @@
 # FlowPilot AI
 
+## Links
+
+- GitHub: https://github.com/Andrey15211/animated-saas-landing
+- Live Demo: https://animated-saas-landing-tau.vercel.app
+
 FlowPilot AI is a standalone portfolio case study for a fictional revenue-automation SaaS. It presents a conversion-focused landing page with a code-built product dashboard, controlled motion, interactive pricing, accessible FAQ content, a validated lead form, and complete Russian/English localization.
 
 ## Stack

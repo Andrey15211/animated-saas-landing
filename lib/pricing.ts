@@ -12,12 +12,14 @@ const interpolate = (
   return Math.round(startPrice + (endPrice - startPrice) * progress);
 };
 
-export function estimateMonthlyCost(leads: number) {
+export function estimateMonthlyCost(leads: number, currency: "USD" | "RUB" = "USD") {
   const volume = clamp(leads, 0, 100_000);
+  let usdPrice: number;
 
-  if (volume <= 2_500) return 49;
-  if (volume <= 5_000) return interpolate(volume, 2_500, 5_000, 49, 99);
-  if (volume <= 25_000) return interpolate(volume, 5_000, 25_000, 99, 229);
+  if (volume <= 2_500) usdPrice = 49;
+  else if (volume <= 5_000) usdPrice = interpolate(volume, 2_500, 5_000, 49, 99);
+  else if (volume <= 25_000) usdPrice = interpolate(volume, 5_000, 25_000, 99, 229);
+  else usdPrice = interpolate(volume, 25_000, 100_000, 229, 649);
 
-  return interpolate(volume, 25_000, 100_000, 229, 649);
+  return currency === "RUB" ? usdPrice * 100 : usdPrice;
 }

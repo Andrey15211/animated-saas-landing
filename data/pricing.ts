@@ -1,14 +1,17 @@
 export const pricingPlans = [
   {
-    price: 49,
+    usdPrice: 49,
+    rubPrice: 4_900,
     featured: false,
   },
   {
-    price: 129,
+    usdPrice: 129,
+    rubPrice: 12_900,
     featured: true,
   },
   {
-    price: 299,
+    usdPrice: 299,
+    rubPrice: 29_900,
     featured: false,
   },
 ] as const;

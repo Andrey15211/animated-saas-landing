@@ -9,9 +9,17 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 
 export function Pricing() {
   const [leads, setLeads] = useState(10_000);
-  const estimate = estimateMonthlyCost(leads);
   const t = useTranslations("pricing");
   const locale = useLocale();
+  const currency = locale === "ru" ? "RUB" : "USD";
+  const currencyLocale = locale === "ru" ? "ru-RU" : "en-US";
+  const estimate = estimateMonthlyCost(leads, currency);
+  const formatPrice = (value: number) =>
+    new Intl.NumberFormat(currencyLocale, {
+      style: "currency",
+      currency,
+      maximumFractionDigits: 0,
+    }).format(value);
   const plans = t.raw("plans") as Array<{ name: string; description: string; features: string[] }>;
 
   return (
@@ -30,7 +38,7 @@ export function Pricing() {
             <article className={`price-card ${plan.featured ? "featured" : ""}`} key={content.name}>
               {plan.featured ? <span className="popular">{t("popular")}</span> : null}
               <div className="price-head"><h3>{content.name}</h3><p>{content.description}</p></div>
-              <div className="price"><span>$</span><strong>{plan.price}</strong><small>{t("perMonth")}</small></div>
+              <div className="price"><strong>{formatPrice(locale === "ru" ? plan.rubPrice : plan.usdPrice)}</strong><small>{t("perMonth")}</small></div>
               <a href="#contact" className={plan.featured ? "price-button primary" : "price-button"}>
                 {t("start", { plan: content.name })} <MoveRight size={16} />
               </a>
@@ -48,7 +56,7 @@ export function Pricing() {
             <div className="calculator-values">
               <p><small>{t("monthlyLeads")}</small><strong>{leads.toLocaleString(locale)}</strong></p>
               <span />
-              <p><small>{t("estimatedCost")}</small><strong>${estimate}<em>{t("perMonthShort")}</em></strong></p>
+              <p><small>{t("estimatedCost")}</small><strong>{formatPrice(estimate)}<em>{t("perMonthShort")}</em></strong></p>
             </div>
             <label htmlFor="lead-volume" className="sr-only">{t("rangeAria")}</label>
             <input
