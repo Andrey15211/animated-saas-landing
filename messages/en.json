@@ -1,0 +1,193 @@
+{
+  "metadata": {
+    "title": "FlowPilot AI — Revenue automation on autopilot",
+    "description": "Connect leads, CRM, notifications, and follow-ups in one intelligent automation platform."
+  },
+  "common": {
+    "brandHome": "FlowPilot AI home",
+    "month": "month",
+    "now": "Now",
+    "live": "Live"
+  },
+  "nav": {
+    "aria": "Main navigation",
+    "features": "Features",
+    "how": "How it works",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "demo": "Book a demo",
+    "language": "Language",
+    "switchTo": "Switch to Russian"
+  },
+  "hero": {
+    "signal": "AI revenue operations",
+    "automated": "12,400 actions automated today",
+    "title": "Turn busywork into",
+    "titleAccent": "business momentum.",
+    "description": "FlowPilot connects your leads, CRM, alerts, and follow-ups in one intelligent system that keeps revenue moving.",
+    "primary": "Start automating",
+    "secondary": "See how it works",
+    "proofCard": "No credit card",
+    "proofSetup": "Set up in 15 minutes",
+    "previewAria": "FlowPilot product preview",
+    "commandCenter": "Revenue command center",
+    "greeting": "Good morning, Maya",
+    "pipeline": "Pipeline overview",
+    "period": "Last 30 days",
+    "qualifiedLeads": "Qualified leads",
+    "hoursSaved": "Hours saved",
+    "conversion": "Conversion",
+    "qualificationFlow": "Lead qualification flow",
+    "running": "Running",
+    "newLead": "New lead",
+    "aiScore": "AI score",
+    "followUp": "Follow-up",
+    "assignOwner": "Assign owner",
+    "movedQualified": "Moved to Qualified",
+    "followUpScheduled": "Follow-up scheduled",
+    "aiQualification": "AI qualification",
+    "hotLead": "Hot lead detected",
+    "responseTime": "Response time",
+    "faster": "2m 14s faster",
+    "integrations": "Built to connect with your stack"
+  },
+  "problem": {
+    "label": "From friction to flow",
+    "title": "Your growth stack should work as one system.",
+    "description": "Stop stitching together manual tasks. FlowPilot turns scattered signals into coordinated action.",
+    "without": "Without FlowPilot",
+    "withoutTitle": "Work piles up between tools",
+    "tools": ["Inbox", "CRM", "Alerts", "Leads"],
+    "pains": [
+      "Leads wait while reps update spreadsheets",
+      "CRM data becomes incomplete and unreliable",
+      "Follow-ups depend on memory and spare time",
+      "Critical buying signals get lost in the noise"
+    ],
+    "with": "With FlowPilot",
+    "withTitle": "Every signal triggers the next best action",
+    "actions": ["Qualify", "Route", "Follow up"],
+    "solutions": [
+      "Instant AI qualification and routing",
+      "Clean, continuously updated CRM data",
+      "Personalized follow-up at the right moment",
+      "Actionable alerts delivered to the right person"
+    ]
+  },
+  "features": {
+    "label": "One intelligent system",
+    "title": "Everything revenue teams need to move faster.",
+    "description": "Six focused capabilities replace hours of repetitive coordination while keeping people in control.",
+    "explore": "Explore capability",
+    "learnAria": "Learn about {title}",
+    "items": [
+      {"title": "AI lead qualification", "description": "Score every inquiry in seconds and route high-intent prospects to the right owner."},
+      {"title": "CRM autopilot", "description": "Keep contacts, stages, notes, and next actions current without manual data entry."},
+      {"title": "Visual workflows", "description": "Build multi-step automations with conditions, delays, assignments, and safeguards."},
+      {"title": "Smart follow-ups", "description": "Send timely, personalized outreach that adapts to customer behavior and context."},
+      {"title": "Signal-based alerts", "description": "Notify the right teammate when deals stall, intent spikes, or intervention is needed."},
+      {"title": "Revenue intelligence", "description": "See conversion leaks, response time, and automation impact in one live command center."}
+    ]
+  },
+  "how": {
+    "label": "How it works",
+    "title": "From raw signal to completed action.",
+    "description": "A flexible operating layer that fits your process instead of forcing your team into another rigid tool.",
+    "steps": [
+      {"title": "Connect your stack", "description": "Link forms, inboxes, CRM records, calendars, and team channels in minutes."},
+      {"title": "Define the signal", "description": "Choose the events, conditions, and customer behaviors that should trigger action."},
+      {"title": "Let AI orchestrate", "description": "FlowPilot qualifies, enriches, routes, and follows up using your operating rules."},
+      {"title": "Improve every cycle", "description": "Track outcomes, find bottlenecks, and tune workflows with live revenue intelligence."}
+    ],
+    "workflow": "Lead routing workflow",
+    "active": "Active",
+    "newLead": "New lead",
+    "websiteForm": "Website form",
+    "aiQualification": "AI qualification",
+    "intentScore": "Intent + fit score",
+    "updateCrm": "Update CRM",
+    "qualified": "Qualified",
+    "notifySales": "Notify sales",
+    "slackEmail": "Slack + email",
+    "healthy": "Workflow healthy",
+    "lastRun": "Last run 12s ago",
+    "scroll": "Scroll to follow the workflow"
+  },
+  "pricing": {
+    "label": "Simple pricing",
+    "title": "Automation that pays for itself.",
+    "description": "Start with the capacity you need today. Scale without adding operational overhead.",
+    "popular": "Most popular",
+    "perMonth": "/ month",
+    "start": "Start with {plan}",
+    "plans": [
+      {"name": "Launch", "description": "For lean teams building a repeatable growth engine.", "features": ["2,500 leads / month", "5 active workflows", "Core CRM integrations", "Email support"]},
+      {"name": "Scale", "description": "For growing revenue teams that need more control.", "features": ["10,000 leads / month", "Unlimited workflows", "AI qualification", "Priority support"]},
+      {"name": "Command", "description": "For high-volume teams with advanced operations.", "features": ["50,000 leads / month", "Custom AI rules", "Advanced analytics", "Dedicated success manager"]}
+    ],
+    "calculator": "Usage calculator",
+    "estimateTitle": "Estimate your monthly investment",
+    "estimateDescription": "Move the slider to match your average monthly lead volume.",
+    "monthlyLeads": "Monthly leads",
+    "estimatedCost": "Estimated cost",
+    "rangeAria": "Monthly lead volume",
+    "perMonthShort": "/mo",
+    "max": "100k"
+  },
+  "faq": {
+    "label": "Questions, answered",
+    "title": "Clarity before you connect.",
+    "description": "The essentials about setup, control, integrations, and security.",
+    "items": [
+      {"question": "How quickly can we launch our first workflow?", "answer": "Most teams connect their core tools and launch a first workflow in under 30 minutes. Templates cover common lead routing, qualification, CRM hygiene, and follow-up scenarios."},
+      {"question": "Does FlowPilot replace our CRM?", "answer": "No. FlowPilot is the intelligent orchestration layer around your CRM. It keeps data current and coordinates actions across the rest of your stack."},
+      {"question": "Can people review AI decisions?", "answer": "Yes. You control confidence thresholds, approval steps, fallback owners, and audit history. High-impact decisions can always require human review."},
+      {"question": "Which tools does FlowPilot integrate with?", "answer": "The platform supports major CRMs, email providers, form tools, calendars, data warehouses, and team messaging products through native connectors and webhooks."},
+      {"question": "Is our customer data secure?", "answer": "FlowPilot is designed around least-privilege access, encrypted data, scoped credentials, and detailed activity logs. Enterprise plans include custom retention and access controls."}
+    ]
+  },
+  "contact": {
+    "label": "Build your growth engine",
+    "title": "Make your next lead the last one you process manually.",
+    "description": "Tell us where work gets stuck. We'll show you how FlowPilot can turn that friction into an automated workflow.",
+    "benefits": ["Personalized automation map", "Live product walkthrough", "Clear rollout recommendation"],
+    "securityTitle": "Your data stays yours.",
+    "securityDescription": "No spam. No surprise handoffs.",
+    "successTitle": "You're on the flight plan.",
+    "successDescription": "Thanks for reaching out. A FlowPilot specialist will follow up within one business day.",
+    "successReset": "Send another message",
+    "formTitle": "Book your FlowPilot demo",
+    "formReply": "Usually replies within one business day.",
+    "name": "Your name",
+    "namePlaceholder": "Alex Morgan",
+    "email": "Work email",
+    "emailPlaceholder": "alex@company.com",
+    "company": "Company",
+    "companyPlaceholder": "Company name",
+    "message": "What would you like to automate?",
+    "messagePlaceholder": "Tell us about your current workflow and where it slows down...",
+    "sending": "Sending...",
+    "submit": "Book my demo",
+    "note": "By submitting, you agree to our privacy policy.",
+    "errors": {
+      "name": "Please enter your name.",
+      "email": "Enter a valid work email.",
+      "company": "Please enter your company name.",
+      "message": "Tell us a little more about your workflow."
+    }
+  },
+  "footer": {
+    "description": "Intelligent automation for teams that refuse to let good opportunities stall.",
+    "product": "Product",
+    "company": "Company",
+    "connect": "Connect",
+    "features": "Features",
+    "how": "How it works",
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "faq": "FAQ",
+    "about": "About",
+    "copyright": "© 2026 FlowPilot AI. Portfolio concept.",
+    "legal": "Privacy · Terms · Security"
+  }
+}
