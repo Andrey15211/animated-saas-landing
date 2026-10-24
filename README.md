@@ -83,3 +83,11 @@ Deployed on Vercel with the standard Next.js preset. No environment variables ar
 ## Recommended GitHub Topics
 
 `saas-landing-page` `nextjs` `react` `typescript` `gsap` `scrolltrigger` `tailwindcss` `next-intl` `frontend-animation` `vercel`
+
+---
+
+## Contact
+
+**Telegram:** [@andrey15211](https://t.me/andrey15211)  
+**Email:** andrejbadalin8@gmail.com  
+**GitHub:** [Andrey15211](https://github.com/Andrey15211)
